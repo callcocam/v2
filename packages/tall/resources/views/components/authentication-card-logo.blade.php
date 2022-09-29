@@ -1,0 +1,1 @@
+<img class="mx-auto h-16 w-16 " src="{{ asset('img/app-logo.svg') }}" alt="Logo" />

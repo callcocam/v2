@@ -1,0 +1,30 @@
+{
+    "name": "callcocam/tall-base",
+    "type": "package",
+    "description": "The packages auto slug laravel model.",
+    "keywords": ["framework", "laravel", "livewire", "alpinejs", "tailwindcss"],
+    "license": "MIT",
+    "require": {
+        "php": "^7.3|^8.0",
+        "laravel/jetstream": "^2.11",
+        "livewire/livewire": "^2.5",
+        "callcocam/tall-sluggable": "dev-main",
+        "doctrine/dbal": "^3.4",
+        "opcodesio/log-viewer": "^1.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tall\\": "src"
+        }
+    },
+    
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Tall\\Providers\\TallServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
